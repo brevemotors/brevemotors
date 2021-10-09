@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+}
+/* FONDOS */
+body {
+    background-color: #0d1323;
+}
+main .section-1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.726), rgba(0, 0, 0, 0.767)), url("https://clubdelmotorista.com/wp-content/uploads/2017/05/consejos-viajar-moto-1000x640.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* HEADER */
+header {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+    position: sticky;
+    top: 0;
+    background-color: #0d1323;
+    box-shadow: 0 0 100px 10px white;
+    overflow: hidden;
+}
+.header {
+    display: flex;
+    align-items: center;
+    width: 75%;
+    margin: 0 auto;
+}
+header div img {
+    width: 70px;
+}
+header div nav ul {
+    display: flex;
+    width: 580px;
+    justify-content: space-around;
+}
+header div nav ul li {
+    list-style-type: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+header div nav ul li:hover {
+    color: #739eb1;
+}
+.div-nav-1 {
+    margin: 0 auto;
+}
+.submit-header-register {
+    width: 120px;
+    height: 30px;
+    background-color: white;
+    border: none;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.submit-header-inicio-s {
+    width: 120px;
+    height: 30px;
+    background-color: white;
+    border: none;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 13px;
+    cursor: pointer;
+}
+nav a {
+    color: #739eb1;
+    text-decoration: none;
+}
+/* LISTA DESPLEGABLE */
+
+/* MAIN SECTION 1 */
+main .section-1 {
+    height: 470px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+main div {
+    width: 50%;
+}
+main div h1 {
+    color: #ffffff;
+    text-align: center;
+    margin: 0 80px;
+    font-size: 40px;
+}
+main section div p {
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+.submit-section-1 {
+    width: 190px;
+    height: 40px;
+    background-color: #0d1323;
+    border-radius: 20px;
+    box-shadow: -20px -20px 400px #4a4a4a, 20px 20px 60px #646464;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    cursor: pointer;
+}
+.submit-section-1 a {
+    color: #ffff;
+    text-decoration: none;
+}
+.submit-section-1 a:visited {
+    color: #ffff;
+    text-decoration: none;
+}
+.submit-section-1 a:active {
+    color: #ffff;
+    text-decoration: none;
+}
+/* SECTION-2 */
+.section-2 {
+    background-color: white;
+    padding-bottom: 80px;
+}
+.section-2 .h2-beneficios-index {
+    width: 100%;
+    text-align: center;
+    margin-top: -150px;
+    padding-bottom: 80px;
+}
+.beneficios-index {
+    display: flex;
+    margin: 0 auto;
+    width: 85%;
+    justify-content: space-around;
+
+}
+.section-2 div h2 {
+    font-size: 29px;
+}
+.section-2 div p {
+    color: black;
+}
+.section-2 i {
+    font-size: 40px;
+    width: 80px;
+    height: 80px;
+    background-color: #0d1323;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.section-2 i:hover {
+    border-bottom: 4px solid #0d1323;
+    background-color: white;
+    color: #0d1323;
+}
+.beneficios-index div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+.beneficios-123 {
+    margin: 0 auto;
+    width: 100%;
+}
+/* SECTION 3 */
+.section-3 {
+    width: 70%;
+    margin: 50px auto;
+    border-radius: 50px;
+    background: #ffffff;
+}
+.section-3 img {
+    width: 270px;
+    border-radius: 50px;
+}
+.section-3-flex {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+.section-3-flex h3 {
+    font-size: 25px;
+}
+.section-3-flex div {
+    text-align: center;
+}
+.deseo-inf-section-3 {
+    width: 100%;
+    padding: 40px 0;
+}
+.section-3 a {
+    text-align: center;
+    color: rgb(24, 24, 24);
+    font-size: 22px;
+    padding: 20px 20px;
+}
+.section-3 a:hover {
+    color: black;
+}
+
+/* FOOTER */
+.hr-footer {
+    border-top: 1px solid gray;
+}
+footer div p {
+    margin: 10px 0;
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 570px) { /* Celular */
+    header .header-div-1 img {
+        width: 50px;
+    }
+    main .section-1 {
+        height: 370px;
+    }
+    main .section-1 div {
+        width: 90%;
+    }
+    .section-1 div h1 {
+        text-align: center;
+        margin: 0 auto;
+        font-size: 25px;
+    }
+    main section div p{
+        font-size: 15px;
+    }
+    .section-2 .h2-beneficios-index {
+        width: 100%;
+        text-align: center;
+        margin-top: -10px;
+        padding-bottom: 30px;
+    }
+    .section-2 .h2-beneficios-index h2 {
+        font-size: 24px;
+    }
+    .beneficios-123 {
+        width: 100%;
+    }
+    .beneficios-index {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .whatsapp img {
+        display: none;
+    }
+}
