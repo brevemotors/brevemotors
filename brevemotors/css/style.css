@@ -25,6 +25,7 @@ header {
     background-color: #0d1323;
     box-shadow: 0 0 100px 10px white;
     overflow: hidden;
+    z-index: 999;
 }
 .header {
     display: flex;
