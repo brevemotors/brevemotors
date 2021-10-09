@@ -242,7 +242,7 @@ footer div p {
 
 
 
-@media screen and (max-width: 570px) { /* Celular */
+@media screen and (max-width: 900px) { /* Celular */
     header .header-div-1 img {
         width: 50px;
     }
