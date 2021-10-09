@@ -277,7 +277,27 @@ footer div p {
         margin: 0 auto;
         width: 100%;
     }
-    .whatsapp img {
-        display: none;
+
+    /* SECTION 3 */
+    .section-3 {
+        width: 100%;
+    }
+    .section-3 .section-3-flex {
+        display: flex;
+        width: 90%;  
+    }
+    .section-3 .section-3-flex h3 {
+        font-size: 20px;
+    }
+    .section-3 .section-3-flex div img {
+        clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+        width: 150px;
+    }
+
+
+
+    /* FOOTER */
+    footer div p {
+        font-size: 13px;
     }
 }
